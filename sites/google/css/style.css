@@ -98,3 +98,34 @@ main{
     text-align: center;
     font-size: 10pt;
 }
+#up{
+    position: relative;
+    background-color: blueviolet;
+    
+}
+#right{
+    position: absolute;
+    right: 0.5%;
+    text-align: right;
+    
+}
+#right1{
+    display: inline-flex;
+    flex-direction: row;
+}
+#right1 li{
+    font-family: arial,sans-serif;
+    font-size: 10pt;
+    list-style: none;
+    margin-right: 17px;
+    margin-top: 22px;
+}
+#right a{
+   text-decoration: none;
+   color:rgb(61, 90, 128);
+   float: right;
+}
+#right a:hover{
+    text-decoration: underline;
+}
+
