@@ -82,6 +82,7 @@ main{
     height: 36px;
     width: 140px;
     border-radius: 5px;
+    margin-left: 10px;
 }
 #search2 button:hover{
     cursor: pointer;
