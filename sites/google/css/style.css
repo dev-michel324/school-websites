@@ -29,3 +29,6 @@
    color:rgb(61, 90, 128);
    float: right;
 }
+#right a:hover{
+    text-decoration: underline;
+}
