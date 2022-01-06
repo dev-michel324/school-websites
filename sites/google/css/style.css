@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Spline Sans', sans-serif;
+}
 
 main{
     display: flex;
@@ -100,8 +103,6 @@ main{
 }
 #up{
     position: relative;
-    background-color: blueviolet;
-    
 }
 #right{
     position: absolute;
@@ -128,4 +129,3 @@ main{
 #right a:hover{
     text-decoration: underline;
 }
-
