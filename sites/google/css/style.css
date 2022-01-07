@@ -130,10 +130,15 @@ main{
 #right a:hover{
     text-decoration: underline;
 }
+.video{
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 10px;
+}
 
-
-
-
+.video iframe{
+    border-radius: 10px;
+}
 
 #under{
     width: 100%;
@@ -159,7 +164,7 @@ main{
     position: relative;
     margin-right: 0;
     padding-top: 5px;
-    background-color:#f2f2f2;;
+    background-color:#f2f2f2;
 }
 #info1{
     text-align: left;

@@ -21,6 +21,7 @@
 <body>
 
     <div id="up"> <!-- barra de navegacao superior-->
+        <div class="video"></div>
         <div id="right">
             <ul id="right1">
                 <li><a target="_blank" href="https://www.gmail.com">Gmail</a></li>
@@ -63,7 +64,7 @@
         <div id="under">
             <div id="under1"><!-- barra de navegacao inferior 1-->
                 <ul>
-                    <li>Brasil</li>
+                    <li id="under1-back">Brasil</li>
                 </ul>
             </div>
             <div id="under2"><!-- barra de navegacao inferior 2-->
@@ -80,6 +81,7 @@
                         <li><a target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwixwv_ys571AhWwJrkGHVJsCnwQ8awCCBM&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Dpt-BR%26fg%3D1&usg=AOvVaw38fspUc-lPeC-l8V8E2yk0">Privacidade</a></li>
                         <li><a target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwixwv_ys571AhWwJrkGHVJsCnwQ8qwCCBQ&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Dpt-BR%26fg%3D1&usg=AOvVaw3h34CxlTDQxqKNSK8DxUZk">Termos</a></li>
                         <li><a target="_blank" href="">Configurações</a></li>
+                        <li onclick="playMusic()"><a href="#">Video</a></li>
                     </ul>
                 </div>
             </div>
@@ -95,6 +97,12 @@
             if (text.value!=""){
                 window.location.href = "https://www.google.com/search?q="+text.value;
             }
+        }
+        function playMusic(){
+            document.querySelector('.video').innerHTML = '<iframe width="170" height="100" src="https://www.youtube.com/embed/Rw7yUs8Pu0c?playlist=Rw7yUs8Pu0c&loop=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; loop=1; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            under1 = document.querySelector('#under1-back').style.backgroundColor = 'rgb(0, 247, 66)'
+            under2 = document.querySelector('#under2').style.backgroundColor = '#000'
+            
         }
     </script>
 
