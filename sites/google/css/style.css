@@ -18,7 +18,7 @@ main{
     width: 720px;
     height: 400px;
     /* top: 50%; */
-    transform: translateY(30%);
+    transform: translateY(20%);
 }
 #image{
     padding-top: 5%;
@@ -137,7 +137,7 @@ main{
 
 #under{
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
 }
 #under1{
@@ -157,14 +157,22 @@ main{
     display: inline-flex;
     width: 100%;
     position: relative;
+    margin-right: 0;
+    padding-top: 5px;
     background-color:#f2f2f2;;
+}
+#info1{
+    text-align: left;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 130px;
 }
 #info1 li{
     display: inline-block;
+    text-align: left;
     list-style: none;
     font-family: arial,sans-serif;
-    padding : 15px 30px;
-    border-bottom: 1px solid #dadce0;
+    padding : 10px 15px 10px 0px;
     font-size: 15px;
     color: #70757a;
 }
@@ -176,25 +184,34 @@ main{
     text-decoration: underline;
 }
 
-
 #info2{
-    text-align: right;
+    display: inline-block;
+    /* margin-right: 0; */
+    padding-left: 30px;
+    right: 0;
 }
 
 #info2 li{
     display: inline-block;
     list-style: none;
+    text-align: right;
     font-family: arial,sans-serif;
-    padding : 15px 30px;
-    border-bottom: 1px solid #dadce0;
+    padding : 10px 15px 10px 0px;
     font-size: 15px;
     color: #70757a;
 }
 #info2 a{
    text-decoration: none;
    color: #70757a;
-  
+   text-align: right;
 }
 #info2 a:hover{
     text-decoration: underline;
+}
+#opcao-right{
+    text-align: right;
+    width: 55%;
+    position: relative;
+    display: inline-block;
+    margin-right: 0;
 }
