@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Spline Sans', sans-serif;
+    transition: 3s !important;
 }
 
 main{
@@ -134,10 +135,13 @@ main{
     position: fixed;
     margin-left: 20px;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .video iframe{
     border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    opacity: 0.3;
 }
 
 #under{

@@ -50,8 +50,8 @@
             </div>
             <div id="search2">
                 <center>
-                <button onclick="search()">Pesquisa Google</button>
-                <button>Estou com sorte</button>
+                <button id="button1" onclick="search()">Pesquisa Google</button>
+                <button id="button2">Estou com sorte</button>
             </center>
             </div>
             <div id="search3">
@@ -100,9 +100,14 @@
         }
         function playMusic(){
             document.querySelector('.video').innerHTML = '<iframe width="170" height="100" src="https://www.youtube.com/embed/Rw7yUs8Pu0c?playlist=Rw7yUs8Pu0c&loop=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; loop=1; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            under1 = document.querySelector('#under1-back').style.backgroundColor = 'rgb(0, 247, 66)'
-            under2 = document.querySelector('#under2').style.backgroundColor = '#000'
-            
+            document.querySelector('#under1-back').style.background = 'linear-gradient(90deg, rgba(22,21,21,1) 0%, rgba(67,75,105,1) 0%, rgba(140,65,65,1) 100%)'
+            document.querySelector('#under1 li').style.borderBottom = 'none'
+            under2 = document.querySelector('#under2').style.background = 'linear-gradient(90deg, rgba(22,21,21,1) 0%, rgba(67,75,105,1) 0%, rgba(140,65,65,1) 100%)'
+            document.querySelector('body').style.background = 'linear-gradient(90deg, rgba(22,21,21,1) 0%, rgba(67,75,105,1) 0%, rgba(140,65,65,1) 100%)'
+            document.querySelector('#search1').style.background = 'linear-gradient(292deg, rgba(237,237,237,1) 0%, rgba(233,233,233,0.43599438066242124) 0%, rgba(93,93,93,0.9177870977492559) 100%)'
+            document.querySelector('#input-search').style.background = 'transparent'
+            document.querySelector('#button1').style.background = 'linear-gradient(292deg, rgba(237,237,237,1) 0%, rgba(233,233,233,0.43599438066242124) 0%, rgba(93,93,93,0.9177870977492559) 100%)'
+            document.querySelector('#button2').style.background = 'linear-gradient(292deg, rgba(237,237,237,1) 0%, rgba(233,233,233,0.43599438066242124) 0%, rgba(93,93,93,0.9177870977492559) 100%)'
         }
     </script>
 
