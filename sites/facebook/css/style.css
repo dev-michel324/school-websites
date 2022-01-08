@@ -20,6 +20,17 @@
     background-color: green;
     width: 50%;
 }
+#face p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: normal;
+    line-height: 32px;
+    width: 600px;
+}
+#face img{
+    height: 106px;
+    margin: -28px;
+}
 #login{
     float: right;
     display: flex;
@@ -51,4 +62,14 @@
     border-radius: 6px;
     border: 0.5px solid rgb(196, 195, 195);
     /* align-content: center; */
+}
+#infod ul{
+    display: block;
+
+}
+#infos li{
+    list-style: none
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
 }
