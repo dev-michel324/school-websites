@@ -8,10 +8,14 @@
 .center-fl{
     padding-top: 72px;
     position: absolute;
-    background-color: red;
+    /* background-color: red; */
     left: 50%;
     transform: translateX(-50%);
     height: 100%;
+}
+#centro{
+    transform: translateY(10%);
+    display: block;
 }
 #face{
     float: left;
@@ -26,7 +30,7 @@
     justify-content: center;
     position: relative;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     width: 50%;
 }
 #base-login{
@@ -35,20 +39,113 @@
     align-self: center;
     justify-content: center;
     width: 396px;
-    height: 351px;
+    height: 365px;
     background-color: white;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 10px grey;
     border-radius: 8px;
+}
+#write{
+    display: block;
+    position: relative;
 }
 .inputs{
     width: 350px;
     display: block;
     margin-top: 20px;
+    font-size: 13pt;
+    color: rgb(173, 173, 173);
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 15px;
-    /* padding-right: 5px; */
     border-radius: 6px;
     border: 0.5px solid rgb(196, 195, 195);
-    /* align-content: center; */
+}
+.inputs:hover{
+    box-shadow: 0px 0px 5px rgb(116, 116, 116);
+    transition: 0.5s;
+}
+.inputs:focus{
+    outline: none;
+    border: 1px solid rgb(49, 138, 255);
+    color: rgb(219, 215, 215);
+}
+#botao{
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16pt;
+    color: white;
+    width: 365px;
+    border: none;
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 13px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: #166fe5;
+    border-radius: 6px;
+}
+#botao:hover{
+    background-color: #135dbd;
+    transition: 0.5s;
+}
+#forget{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#forget a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1877f2;
+}
+#forget a:hover{
+    text-decoration: underline;
+}
+#line hr{
+    /* size: 3px; */
+    border: 0.5px solid rgb(196, 195, 195);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 25px;
+    /* color: rgb(196, 195, 195); */
+}
+#new-account{
+    display: flex;
+    justify-content: center;
+}
+#new-account button{
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    background-color: #3ab422;
+    border-radius: 6px;
+}
+#new-account button:hover{
+    background-color: #36a420;
+    transition: 0.5s;
+}
+#create-page{
+    /* font-weight: bold; */
+    font-size: 13px;
+    text-align: center;
+    margin-top: 28px;
+    width: 396px;
+    display: block;
+}
+#create-page a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+#create-page a:hover{
+    text-decoration: underline;
 }
