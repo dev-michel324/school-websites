@@ -165,7 +165,7 @@
     display: block;
 }
 #infos li{
-    list-style: none
+    list-style: none;
     color: #737373;
     margin: 0 auto;
     width: 980px;
