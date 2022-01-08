@@ -1,0 +1,56 @@
+#titles img{
+ height: 34.6px ;
+ width: 42.27px;
+}
+#titles p{
+    font-family: Verdana, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.button button{
+    display: block;
+    height: 40px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom:20px;
+    border-radius: 20px 20px 20px;
+    border: 0.5px solid rgb(194, 191, 191);
+}
+.subscribe button{
+    padding-left: 20px ;
+    padding-right: 20px ;
+    background-color: white;
+}
+#google button:hover{
+    background-color: rgb(234, 243, 255, 0.5);
+    transition: 0.5s;
+}
+#apple button:hover{
+    background-color: rgb(230, 230, 230, 0.5);
+    transition: 0.5s;
+}
+.button button img{
+    height: 17px;
+    width:17px;
+}
+#phone button{
+    background-color: rgb(29, 155, 240);
+    color: aliceblue;
+    font-weight:bolder;
+}
+#phone button:hover{
+    background-color: rgb(23, 132, 204);
+    transition: 1s;
+}
+.rules{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 7pt;
+    color: rgb(134, 146, 146)
+}
+.rules a{
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+.rules a:hover{
+    text-decoration: underline;
+}
+
+
