@@ -88,10 +88,11 @@
 }
 #video{
     position: fixed;
-    display: flex;
-    align-self: center;
-    left: 50%;
-    transform: translateX(-50%);
+    /* display: flex; */
+    /* align-self: center; */
+    left: 3%;
+    top: 15%;
+    /* transform: translateX(-50%); */
     /* align-content: center; */
     /* justify-content: center; */
 }
