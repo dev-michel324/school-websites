@@ -13,32 +13,43 @@ html {
   }
   .master {
       background-color: white;
-      padding: 50px;
-      width: 500px;
+      padding: 55px;
+      width:80%;
+      margin-left: 100px;
+      border-radius: 5px;
+
   }
   .master *{
       display: block;
       width: 100%;
       color: gray;
-  
+      border-radius: 7px;
+      border-color: #b3b3b3;
   }
   .master label, .master button{
-      margin-top: 15px;
-  
+      margin-top: 20px;
+    ;
   }
   .master button{
-      background-color: green;
+      background-color: #25a25a;
       color: white;
-      border-radius: 10px;
+      border-radius: 25px;
+      border: 0;
+      font-size: 11.5pt;
+  }
+  .master button:hover{
+      background-color: #237746;
   }
   .master button, .master input {
       height: 40px;
-  
+  } 
+  .master input{
+      border: 1px solid rgba(168, 167, 167, 0.781);
   }
-  .master a {
-      margin-top: 15px;
-      color: green;
-      text-align: right;
+  .master input:focus{
+    border: 1px solid rgba(23, 199, 0, 0.781);
+    outline: none ;
+    transition: 0.5s;
   }
   .valeu {
       color: gray;
@@ -61,3 +72,29 @@ html {
       margin-top: 15px;
       color: gray;
   }
+    #forgot a{
+    font-size: 9pt;
+    text-decoration: none;
+    margin-top: 15px;
+    color: #25a25a;
+    text-align: right;
+    font-family: "Lato",sans-serif;
+}
+    #forgot a:hover{        
+    text-decoration: underline;
+    color: rgb(53, 53, 53);
+}
+    .center img{
+    height: 88px; ;
+    width: 698.89px;
+}
+.totype{
+    font-family: "Lato",sans-serif;
+    font-size: 9pt;
+    margin-bottom: 2%;
+}
+#login{
+    font-size: 12pt;
+    font-family: "Lato",sans-serif;
+    color: #b3b3b3;
+}
