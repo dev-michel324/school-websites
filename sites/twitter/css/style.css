@@ -34,7 +34,7 @@
     font-size: 50pt;
     font-weight: 600;
     display: block;
-    margin-top: 3.2%;
+    margin-top: 8%;
     transform: scaleX(1.1);
     padding-left: 30px;
 }
@@ -43,7 +43,7 @@
     font-size: 25pt;
     font-weight: 600;
     display: block;
-    margin-top: 3.2%;
+    margin-top: 7%;
     margin-bottom: 2%;
 }
 .button button{
@@ -122,7 +122,7 @@ main{
     height: 100%;
     position: relative;
     /* text-align: center; */
-    width: 75%;
+    width: 85%;
     /* margin-top: 10%; */
     background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png);
 }
@@ -163,7 +163,7 @@ footer ul{
 footer ul li{
     padding-right: 10px;
     display: inline-block;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 footer ul li a{
     text-decoration: none;
