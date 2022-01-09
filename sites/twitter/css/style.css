@@ -49,16 +49,31 @@ main{
     height: 65%;
 }
 footer{
-    padding-right: 10px;
-    padding-left: 30px;
-    background-color: tomato;
-    /* margin-top: 30px; */
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: block;
 }
 footer ul{
     display: block;
+    text-align: center;
 }
 footer ul li{
     padding-right: 10px;
     display: inline-block;
+    font-size: 11pt;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #536471;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+#ul-center{
+    padding-top: 7px;
+    text-align: center;
+    color: #536471;
+    /* transform: translateX(50%); */
 }
