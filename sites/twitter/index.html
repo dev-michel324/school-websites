@@ -83,10 +83,20 @@
     </ul>
 </footer>
 <script>
+    color = ['linear-gradient(292deg, rgba(133,136,41,1) 10%, rgba(162,198,101,1) 52%, rgba(173,237,144,1) 87%)',
+    'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)',
+    'linear-gradient(292deg, rgba(237,237,237,1) 9%, rgba(237,144,144,1) 41%, rgba(237,87,87,1) 56%, rgba(237,87,87,1) 76%, rgba(93,93,93,1) 100%)',
+    'linear-gradient(292deg, rgba(136,41,79,1) 21%, rgba(113,101,198,1) 55%, rgba(237,188,144,1) 87%)'
+]
+    c = 0
     n = 0
     function login(){
         document.querySelector('#image').style.background = 'transparent'
-        document.querySelector('body').style.background = 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)'
+        if (c<4)
+            c += 1
+        else
+            c = 0
+        document.querySelector('body').style.background = color[c]
         document.querySelector('.bird').style.fill = '#2aa9e0'
         document.getElementById('video').innerHTML = '<iframe width="230" height="150" src="https://www.youtube.com/embed/z9G0-zEqKXo?controls=0&autoplay=1&playlist=z9G0-zEqKXo&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
         document.getElementById('title').innerHTML = 'Contrata nois ae ó'
@@ -96,11 +106,8 @@
     }
     function contador(){
         n += 1
-        if (n==3){
+        if (n>=5){
             document.getElementById('video').innerHTML = '<iframe width="230" height="150" src="https://www.youtube.com/embed/6pbHCaw7ezY?controls=0&autoplay=1&playlist=6pbHCaw7ezY&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-            document.querySelector('body').style.background = 'linear-gradient(292deg, rgba(237,237,237,1) 9%, rgba(237,144,144,1) 41%, rgba(237,87,87,1) 56%, rgba(237,87,87,1) 76%, rgba(93,93,93,1) 100%)'
-            // document.querySelector('main').style.opacity = '0'
-            // document.querySelector('body').style.background = '#000'
         }
         document.getElementById('contador').innerHTML = 'Você já usou o botão '+n+' vezes.'
     }
