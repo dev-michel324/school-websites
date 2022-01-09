@@ -4,6 +4,32 @@
 }
 .geral{
     height: 800px;
+#login{
+    width: 300px;
+}
+#titles img{
+ height: 34.6px ;
+ width: 42.27px;
+}
+#titles p{
+    font-family: Verdana, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+#title{
+    font-family: 'Kanit','Prompt', sans-serif;
+    font-size: 50pt;
+    font-weight: 600;
+    display: block;
+    margin-top: 3.2%;
+}
+#subtitle{
+    font-family: 'Kanit','Prompt', sans-serif;
+    font-size: 25pt;
+    font-weight: 600;
+    display: block;
+    margin-top: 3.2%;
+    margin-bottom: 2%;
+}
+.button button{
     display: block;
 }
 main{
@@ -77,3 +103,21 @@ footer ul li a:hover{
     color: #536471;
     /* transform: translateX(50%); */
 }
+#line hr{
+    width: 43.8%;
+    display: inline-flex;
+    color: rgba(233, 233, 233, 0.8);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#line p{
+    display: inline-flex;
+    transform: translateY(-25%);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 10pt;
+}
+
+
