@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom left, black, gray);
+  }
+  
+  .center {
+      position: absolute;
+      left:50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+  
+  }
+  .master {
+      background-color: white;
+      padding: 50px;
+      width: 500px;
+  }
+  .master *{
+      display: block;
+      width: 100%;
+      color: gray;
+  
+  }
+  .master label, .master button{
+      margin-top: 15px;
+  
+  }
+  .master button{
+      background-color: green;
+      color: white;
+      border-radius: 10px;
+  }
+  .master button, .master input {
+      height: 40px;
+  
+  }
+  .master a {
+      margin-top: 15px;
+      color: green;
+      text-align: right;
+  }
+  .valeu {
+      color: gray;
+      text-align: center;
+  }
+  .side {
+      width: 15%;
+      
+  }
+  .menu {
+      list-style: none;
+  }
+  .opmenu {
+      color: white;
+      border-bottom: 1px solid black;
+      font-size: 16pt;
+      margin-top: 5px;
+  }
+  .topmenu {
+      margin-top: 15px;
+      color: gray;
+  }
