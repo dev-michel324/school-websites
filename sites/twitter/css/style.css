@@ -4,15 +4,30 @@
 }
 .geral{
     height: 800px;
+    display: block;
+}
 #login{
     width: 300px;
+    height: 400px;
+    display: block;
 }
-#titles img{
+#register{
+    display: block;
+}
+#titles{
+    display: block;
+    position: relative;
+    height: 50%;
+}
+/* #titles img{
  height: 34.6px ;
  width: 42.27px;
-}
-#titles p{
-    font-family: Verdana, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+ display: block;
+} */
+#logo{
+    height: 34.6px ;
+    width: 42.27px;
+    display: block;
 }
 #title{
     font-family: 'Kanit','Prompt', sans-serif;
@@ -20,6 +35,8 @@
     font-weight: 600;
     display: block;
     margin-top: 3.2%;
+    transform: scaleX(1.1);
+    padding-left: 30px;
 }
 #subtitle{
     font-family: 'Kanit','Prompt', sans-serif;
@@ -31,6 +48,61 @@
 }
 .button button{
     display: block;
+    height: 40px;
+    width: 300px;
+    padding-top: 10px;
+    font-size: 11pt;
+    padding-bottom: 10px;
+    border-radius: 20px 20px 20px;
+    margin-bottom: 10px;
+    border: 0.5px solid rgb(194, 191, 191);
+}
+.align{
+    display: inline-flex;
+}
+.subscribe button{
+    padding-left: 20px ;
+    padding-right: 20px ;
+    background-color: white;
+}
+#google button{
+    font-weight: 400;
+}
+#google button:hover{
+    background-color: rgb(234, 243, 255, 0.5);
+    transition: 0.3s;
+}
+#apple button:hover{
+    background-color: rgb(230, 230, 230, 0.5);
+    transition: 0.3s;
+}
+.button button img{
+    display: inline-block;
+    height: 18px;
+    width:18px;
+    padding-right: 13px;
+}
+#phone button{
+    background-color: rgb(29, 155, 240);
+    color: aliceblue;
+    font-weight:bolder;
+    margin-top: 15px;
+}
+#phone button:hover{
+    background-color: rgb(23, 132, 204);
+    transition: 0.3s;
+}
+.rules{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+    color: rgb(134, 146, 146)
+}
+.rules a{
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+.rules a:hover{
+    text-decoration: underline;
 }
 main{
     /* position: absolute; */
@@ -44,21 +116,22 @@ main{
 }
 #image{
     /* display: inline-block; */
-    background-color: green;
+    /* background-color: green; */
     display: inline-flex;
     height: 100%;
     position: relative;
-    text-align: center;
+    /* text-align: center; */
     width: 75%;
     /* margin-top: 10%; */
     background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png);
 }
 #main{
-    background-color: red;
+    /* background-color: red; */
     display: inline-flex;
-    /* align-self: ; */
-    /* padding: 20px 20px 20px 20px; */
-    padding: 20px;
+    /* padding: 30px; */
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     width: 100%;
     height: auto;
     position: relative;
@@ -103,6 +176,9 @@ footer ul li a:hover{
     color: #536471;
     /* transform: translateX(50%); */
 }
+#line{
+    margin-bottom: 10px;
+}
 #line hr{
     width: 43.8%;
     display: inline-flex;
@@ -113,11 +189,9 @@ footer ul li a:hover{
 }
 #line p{
     display: inline-flex;
-    transform: translateY(-25%);
-    padding-left: 5px;
-    padding-right: 5px;
+    transform: translateY(20%);
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
-    font-size: 10pt;
+    font-size: 11pt;
 }
-
-
