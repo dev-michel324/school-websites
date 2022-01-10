@@ -2,17 +2,23 @@
 <html>
 
 <head>
-    <title></title>
+    <title>SUAP</title>
     <link type="text/css" href="css/style.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500;700&family=Spline+Sans:wght@300&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="side">
         <div class="container">
             <center>
-                <img src="img/ifrn-logo.png">
+                <span id="suap"><a href="">SUAP</a></span><img src="img/ifrn-logo.png">
             </center>
             <nav>
                 <ul>
@@ -64,22 +70,19 @@
     <div class="center">
         <div class="master">
             <center>
-                <img style="width:25%" src="suap.jpg">
+                <img style="width:50%" src="img/suapLogo.jpg">
             </center>
 
-            <label> Login </label>
-            <hr>
+            <!-- <label id="login"> Login </label> -->
+            <span id="login"><i class="fas fa-lock"></i><p>Login</p></span>
+            <hr style=" border: none; border-bottom: 0.5px solid rgba(212, 212, 228, 0.767);">
 
-            <label> Usuário: </label>
+            <label class="totype"> Usuário: </label>
             <input type="text" />
-            <label> Senha: </label>
+            <label class="totype"> Senha: </label>
             <input type="password" />
             <button> Acessar </button>
-            <a href=""> Esqueceu ou deseja.... </a>
-        </div>
-        <h6 class="valeu"> @ 2020 SUAP ..... <span style="color: green"> IFRN </span> - calculta </h6>
-        <div>
-            teste
+            <span id="forgot"><a href="">Esqueceu ou deseja alterar sua senha?</a></span>
         </div>
     </div>
 </body>

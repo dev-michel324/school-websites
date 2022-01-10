@@ -6,28 +6,81 @@
 html {
     height: auto;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom left, black, gray);
+    /* background-image: linear-gradient(to bottom left, black, gray); */
+    background: linear-gradient(8deg, rgba(0, 0, 0, 1) 0%, rgba(87, 84, 81, 1) 74%);
+}
+
+body {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
 }
 
 .center {
-    display: inline-block;
+    display: inline-flex;
     height: 100%;
-    width: auto;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 73.5%;
     background-color: transparent;
+}
+
+.container center #suap a {
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spline Sans', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    float: left;
+    font-size: 23pt;
+    margin-bottom: 20px;
+    /* font-weight: bolder !important; */
+    background: -webkit-linear-gradient(rgb(255, 254, 254), rgb(102, 101, 101));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 30px;
 }
 
 .master {
     background-color: white;
-    padding: 50px;
-    width: 500px;
-    /* left: 50%; */
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
+    display: block;
+    /* width: 500px; */
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 6%;
+    height: 500px;
     position: relative;
-    transform: translateX(30%);
-    /* background-color: transparent; */
-    /* top: 50%;
-    transform: translateY(-50%); */
+    transform: translateX(50%);
+    /* transform: translateY(50%); */
+}
+
+#forgot a {
+    margin-top: 20px;
+    font-size: 9pt;
+    text-align: right;
+    color: #237746;
+    text-decoration: none;
+}
+
+#forgot a:hover {
+    text-decoration: underline;
+    transition: 1s;
+    color: rgb(88, 87, 87);
+}
+
+.separate {
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
+    display: block;
+    width: 350px;
+    border-radius: 5px;
+    height: 500px;
 }
 
 .master * {
@@ -37,6 +90,60 @@ html {
 }
 
 .master label,
+.master button {
+    margin-top: 20px;
+}
+
+.master button {
+    background-color: #25a25a;
+    color: white;
+    border-radius: 25px;
+    border: 0;
+    font-size: 11.5pt;
+}
+
+.master button:hover {
+    background-color: #237746;
+}
+
+.master button,
+.master input {
+    height: 40px;
+}
+
+#login {
+    margin-top: 30px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+#login i {
+    color: rgb(192, 190, 190);
+    font-size: 13pt;
+    display: inline;
+    padding-right: 10px;
+}
+
+#login p {
+    display: inline;
+}
+
+.master input {
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgba(168, 167, 167, 0.781);
+    font-size: 12pt;
+    color: black;
+}
+
+.master input:focus {
+    border: 2px solid rgba(23, 199, 0, 0.781);
+    outline: none;
+    transition: 0.5s;
+}
+
+
+/* .master label,
 .master button {
     margin-top: 15px;
 }
@@ -56,24 +163,37 @@ html {
     margin-top: 15px;
     color: green;
     text-align: right;
+} */
+
+.teste {
+    text-align: center;
+    /* display: block; */
 }
 
 .valeu {
     color: gray;
-    transform: translateX(30%);
+    /* transform: translateX(50%); */
     /* text-align: center; */
-    left: 30%;
+    display: block;
+    /* text-align: center; */
+    /* left: 30%; */
 }
 
 .side {
-    display: inline-block;
+    /* display: inline-block; */
+    display: inline-flex;
     width: 26.5%;
-    background-color: rgb(105, 105, 105, 0.1);
+    background-color: rgba(61, 61, 61, 0.4);
     /* float: left; */
 }
 
 .container {
-    padding: 13.8%;
+    /* padding: 13.8%; */
+    width: 100%;
+    padding-top: 13.8%;
+    padding-left: 13.8%;
+    padding-bottom: 13.8%;
+    padding-right: 14%;
 }
 
 .container center {
@@ -91,15 +211,17 @@ html {
 }
 
 .title {
-    font-size: 8pt;
+    font-size: 8.5pt;
     color: #aaa !important;
     border: none !important;
 }
 
 .container nav ul li {
-    border-bottom: 0.5px solid rgb(0, 0, 0, 0.5);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    border-bottom: 0.5px solid rgb(0, 0, 0, 0.3);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* padding-right: 0;
+    margin-right: 0; */
 }
 
 .container nav ul li i {
@@ -107,7 +229,13 @@ html {
     padding-right: 5px;
 }
 
+.container nav ul li:hover {
+    color: green;
+}
+
 .container nav ul li a {
+    font-size: 10pt;
+    font-weight: bold;
     text-decoration: none;
     color: white;
 }
